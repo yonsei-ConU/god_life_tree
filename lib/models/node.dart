@@ -20,11 +20,11 @@ abstract class Node {
   final List<Node> children = [];
 
   Node({
-    int? input_id,
+    int? inputID,
     required this.name,
     required this.nodeType,
     this.nodeColor = 0xFFFFFFFF
-  }) : id = input_id ?? _idCount++;
+  }) : id = inputID ?? _idCount++;
 
   /// 자식 노드를 추가
   void addChild(Node child) {
