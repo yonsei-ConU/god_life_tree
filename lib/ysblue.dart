@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
 /// #003876을 베이스로 하는 커스텀 팔레트 (MaterialColor).
-/// 500 단계를 베이스(기본 색)로 두고,
-/// 50 ~ 400은 조금 더 밝은 톤,
-/// 600 ~ 900은 조금 더 어두운 톤으로 설정한 예시입니다.
 const MaterialColor ysBlue = MaterialColor(
   _myCustomBluePrimaryValue,
   <int, Color>{
